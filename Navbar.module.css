@@ -1,0 +1,28 @@
+.navbar {
+  background: linear-gradient(90deg, #0070f3 0%, #005bb5 100%);
+  padding: 12px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.navList {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navItem a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  padding: 6px 14px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.navItem a:hover {
+  background: rgba(255,255,255,0.15);
+}

@@ -1,0 +1,27 @@
+.studentCard {
+  border: 1px solid #eaeaea;
+  padding: 16px;
+  margin: 16px auto;
+  border-radius: 8px;
+  width: 240px;
+  background: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  transition: box-shadow 0.2s;
+}
+
+.studentCard:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+}
+
+.studentName {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #0070f3;
+}
+
+.studentInfo {
+  margin: 4px 0;
+  font-size: 1rem;
+  color: #333;
+}
