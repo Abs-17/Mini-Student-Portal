@@ -13,4 +13,20 @@ It demonstrates how to work with **components, props, routing, and state managem
 
 ---
 
+## What I learned
+- Next.js App Router structure and file-based routing
+- TypeScript component props and type definitions  
+- CSS Modules for scoped styling in Next.js
+- React state management with useState hook
+- Building reusable components (Navbar, StudentCard, Counter)
+
+---
+
+## Local setup
+```bash
+npm install
+npm run dev
+```
+Open http://localhost:3000
+
 
